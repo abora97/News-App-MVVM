@@ -1,0 +1,13 @@
+1- create class extend ViewModel
+
+2- MutableLiveData<ResponseHeadLines> articleMutableLiveData = new MutableLiveData<>();
+
+3- articleMutableLiveData.setValue(response.body());
+
+     in Acitvity
+
+1-	NewsViewModel newsViewModel;
+
+2-	newsViewModel = ViewModelProviders.of(this).get(NewsViewModel.class);
+
+3-      newsViewModel.articleMutableLiveData.observe(this, new Observer<ResponseHeadLines>() {....});
