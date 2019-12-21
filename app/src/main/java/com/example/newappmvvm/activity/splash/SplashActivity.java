@@ -1,4 +1,4 @@
-package com.example.newappmvvm.activity;
+package com.example.newappmvvm.activity.splash;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.example.newappmvvm.R;
+import com.example.newappmvvm.activity.home.NewsActivity;
 
 public class SplashActivity extends AppCompatActivity {
 

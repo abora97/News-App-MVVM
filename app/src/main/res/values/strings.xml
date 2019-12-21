@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">New App MVVM</string>
+    <string-array name="array_country">
+        <item>Select Country</item>
+        <item>us</item>
+        <item>eg</item>
+        <item>ar</item>
+        <item>at</item>
+        <item>au</item>
+    </string-array>
+    <string-array name="array_sources">
+        <item>Select News Sources</item>
+        <item>bbc-news</item>
+        <item>the-verge</item>
+    </string-array>
 </resources>
